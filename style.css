@@ -1,0 +1,38 @@
+.container{
+    justify-content:center;
+}
+
+.keys{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 125px;
+   
+}
+
+
+.key {
+  border: 2px solid black;
+  padding: 15px;
+  transition: all .07s ease;
+  width: 6rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+
+
+}
+
+.key kbd {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
